@@ -2,5 +2,5 @@
 Repo Practising for GITHUN ACtion 
 # Concept
 # 1. Workflow
-To create aGiyHub workflow  you need folder called "/github/workflow"
+To create aGiyHub workflow  you need folder called ./github/workflow
 
