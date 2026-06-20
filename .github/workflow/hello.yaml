@@ -1,4 +1,4 @@
- # Woorkflow
+# Woorkflow
  # Should have name
  name: Hello
  # on tells when workflow should run
@@ -18,5 +18,5 @@
  #container have steps
    steps: 
       -name: say hello to everyone
-      run: echo "Hello Pankaj"
+    run: echo "Hello Pankaj"
  # Action
