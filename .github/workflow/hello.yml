@@ -7,15 +7,16 @@
  # jobs
    # Should be inside of workflow
    # job tell what workflow do
-jobs:
+ jobs:
 # say hello is first job
   say-hello:
 
   # Creates temporary container 
-     runs-on: ubuntu-latest
-       run: echo " hello world"
- # steps
+   runs-on: ubuntu-latest   
+  
+ #steps
  #container have steps
-    steps: 
-      -name: say helo to everyone
+   steps: 
+      -name: say hello to everyone
+      run: echo "Hello Pankaj"
  # Action
