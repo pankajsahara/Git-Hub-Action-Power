@@ -1,0 +1,22 @@
+ # Woorkflow
+ # Should have name
+ name: Hello
+ # on tells when workflow should run
+ on: 
+  workflow_dispatch:
+ # jobs
+   # Should be inside of workflow
+   # job tell what workflow do
+jobs:
+
+# say hello is first job
+  say-hello:
+
+  # Creates temporary container 
+     runs-on: ubuntu-latest
+       run: echo " hello world"
+ # steps
+ #container have steps
+    steps: 
+      -name: say helo to everyone
+ # Action
