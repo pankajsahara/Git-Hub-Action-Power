@@ -8,7 +8,6 @@
    # Should be inside of workflow
    # job tell what workflow do
 jobs:
-
 # say hello is first job
   say-hello:
 
